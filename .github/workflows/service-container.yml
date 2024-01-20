@@ -17,7 +17,7 @@ jobs:
         runs-on: ubuntu-latest
         services:
             postgres:
-                image: prostgres:16.1
+                image: postgres:16.1
                 env:
                     POSTGRES_USER: ${{ env.DATABASE_USER }}
                     POSTGRES_PASSWORD: ${{ env.DATABASE_PASS }}
