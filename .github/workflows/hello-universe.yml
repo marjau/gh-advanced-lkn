@@ -1,0 +1,12 @@
+name: Hello Universe
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: marjau/gh-advanced-lkn@master
