@@ -8,6 +8,7 @@ RUN set -eux \
     && DEBIAN_FRONTEND=noninteractive apt-get install --yes \
         sudo \
         curl \
+        python3 \
     # CREATE USER
     && adduser \
         --home ${R_HOME} \
