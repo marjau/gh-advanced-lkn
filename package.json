@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marjau/javascript-action-template.git"
+    "url": "git+https://github.com/YOUR_GITHUB_USER_NAME/javascript-action-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marjau/javascript-action-template/issues"
+    "url": "https://github.com/YOUR_GITHUB_USER_NAME/javascript-action-template/issues"
   },
-  "homepage": "https://github.com/marjau/javascript-action-template#readme",
+  "homepage": "https://github.com/YOUR_GITHUB_USER_NAME/javascript-action-template#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0"
