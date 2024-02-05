@@ -4,7 +4,6 @@ const github = require('@actions/github');
 
 // use an async function for the main tasks
 async function main() {
-    console.log('Running custom github action...');
 
     // get the inputs
     const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN');

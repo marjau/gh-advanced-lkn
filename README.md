@@ -1,5 +1,8 @@
-# 05_03-develop-a-javascript-action
-Use these files to test a JavaScript action.
+# 05_04-use-actions-core-in-javascript-actions
+Use these files to test a JavaScript action that uses the @actions/core pacakge for:
+- Reading action inputs
+- Printing an info log
+- Creating notice, warning, and error annotations
 
 ## From the GitHub Console...
 1. Create a new repo.
@@ -15,7 +18,12 @@ Use these files to test a JavaScript action.
     - Commit the changes.
 1. **NOTE:** The previous step is key for the workflow to complete successfully.
 1. Once the workflow file is commited, the workflow should be triggered by a `push` event.
-1. Confirm the `Hello Universe` workflow runs as expected and includes the output `Hello, Universe!`.
+1. Confirm the `Hello Universe` workflow runs as expected and includes:
+    - a `Notice` annotation
+    - a `Warning` annotation
+    - an `Error` annotation
+    - logs with an info statement reading "testing testing 1 2 3"
+    - logs for each of the annotations
 
 ## From Your Local System...
 1. Create a new repo and clone it to your local system.
@@ -41,4 +49,10 @@ Use these files to test a JavaScript action.
     ```
 1. Commit the changes and push them to your repo.
 1. Once the commit is pushed, the workflow should be triggered by a `push` event.
-1. Confirm the `Hello Universe` workflow runs as expected and includes the output `Hello, Universe!`.
+1. Confirm the `Hello Universe` workflow runs as expected and includes:
+    - a `Notice` annotation
+    - a `Warning` annotation
+    - an `Error` annotation
+    - logs with an info statement reading "testing testing 1 2 3"
+    - logs for each of the annotations
+

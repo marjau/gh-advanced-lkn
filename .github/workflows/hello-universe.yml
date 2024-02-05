@@ -1,15 +1,16 @@
 name: Hello Universe
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: marjau/gh-advanced-lkn@master
+      - uses: YOUR_GITHUB_USER_NAME/YOUR_GITHUB_REPO_NAME@main
         with:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          input_1: "testing 1 2 3"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          input_1: "testing testing 1 2 3"
+
